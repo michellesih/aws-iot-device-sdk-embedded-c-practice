@@ -23,13 +23,13 @@
 
 // Get from console
 // =================================================
-#define AWS_IOT_MQTT_HOST              "" ///< Customer specific MQTT HOST. The same will be used for Thing Shadow
-#define AWS_IOT_MQTT_PORT              443 ///< default port for MQTT/S
-#define AWS_IOT_MQTT_CLIENT_ID         "c-sdk-client-id" ///< MQTT client ID should be unique for every device
-#define AWS_IOT_MY_THING_NAME 		   "AWS-IoT-C-SDK" ///< Thing Name of the Shadow this device is associated with
-#define AWS_IOT_ROOT_CA_FILENAME       "rootCA.crt" ///< Root CA file name
-#define AWS_IOT_CERTIFICATE_FILENAME   "cert.pem" ///< device signed certificate file name
-#define AWS_IOT_PRIVATE_KEY_FILENAME   "privkey.pem" ///< Device private key filename
+#define AWS_IOT_MQTT_HOST              "aa1w8go2w3tge-ats.iot.us-east-1.amazonaws.com" ///< Customer specific MQTT HOST. The same will be used for Thing Shadow
+#define AWS_IOT_MQTT_PORT              8883 ///< default port for MQTT/S
+#define AWS_IOT_MQTT_CLIENT_ID         "RaspberryPiThing" ///< MQTT client ID should be unique for every device
+#define AWS_IOT_MY_THING_NAME 	       "RaspberryPiThing" ///< Thing Name of the Shadow this device is associated with
+#define AWS_IOT_ROOT_CA_FILENAME       "AmazonRootCA1.pem" ///< Root CA file name
+#define AWS_IOT_CERTIFICATE_FILENAME   "3beb64fdfd-certificate.pem.crt" ///< device signed certificate file name
+#define AWS_IOT_PRIVATE_KEY_FILENAME   "3beb64fdfd-private.pem.key" ///< Device private key filename
 // =================================================
 
 // MQTT PubSub
